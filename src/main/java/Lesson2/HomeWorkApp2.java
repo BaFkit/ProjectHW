@@ -23,7 +23,7 @@ public class HomeWorkApp2 {
     }
 
     public static boolean Find_Positive_or_negative(int a){
-        return a >= 0;
+        return a < 0;
     }
 
     public static void Print_info(String info, int  a){
@@ -38,7 +38,7 @@ public class HomeWorkApp2 {
         }else if (a%100 == 0 ){
             return false;
         }else if (a%4 == 0){
-                return true;
+            return true;
         }else {
             return false;
         }
