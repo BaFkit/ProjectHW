@@ -177,7 +177,7 @@ public class HomeWorkApp4_5x5 {
                 count += 1;
             }
             if (count == SIZE - 1){
-                if (map[i][i] != symb || map[0][0] != symb) {
+                if (map[SIZE - 1][SIZE - 1] != symb || map[0][0] != symb) {
                     return true;
                 }
             }
