@@ -13,12 +13,13 @@ public class HomeWorkApp6 {
         };
 
         for (Animal a: animals){
-            a.run(400);
+            a.run(220);
             a.swim(10);
             System.out.println();
         }
-        System.out.println("Собак всего: " + Animal.countDog);
-        System.out.println("Кошачих всего: " + Animal.countCat);
+        System.out.println("Всего животных: " + Animal.countAnimal);
+        System.out.println("Собак: " + Animal.countDog);
+        System.out.println("Кошачих: " + Animal.countCat);
 
     }
 
