@@ -2,9 +2,14 @@ package Lesson6;
 
 public class Cat extends Animal{
 
+    private static int countCat;
+
     Cat(String name){
         super(name);
         countCat += 1;
+    }
+    public static int getCount(){
+        return countCat;
     }
     @Override
     public void run(int a){

@@ -17,9 +17,9 @@ public class HomeWorkApp6 {
             a.swim(10);
             System.out.println();
         }
-        System.out.println("Всего животных: " + Animal.countAnimal);
-        System.out.println("Собак: " + Animal.countDog);
-        System.out.println("Кошачих: " + Animal.countCat);
+        System.out.println("Всего животных: " + Animal.getCount());
+        System.out.println("Собак: " + Dog.getCount());
+        System.out.println("Кошачих: " + Cat.getCount());
 
     }
 

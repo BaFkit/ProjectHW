@@ -2,10 +2,16 @@ package Lesson6;
 
 public class Dog extends Animal{
 
+    private static int countDog;
+
     Dog(String name){
         super(name);
         countDog += 1;
     }
+    public static int getCount(){
+        return countDog;
+    }
+
     @Override
     public void run(int a){
         if (a > 0) {

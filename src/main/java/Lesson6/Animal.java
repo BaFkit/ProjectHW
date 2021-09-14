@@ -8,10 +8,11 @@ public abstract class  Animal {
     }
 
     String name;
-    static int countAnimal;
-    static int countCat;
-    static int countDog;
+    private static int countAnimal;
 
+    public static int getCount(){
+        return countAnimal;
+    }
 
     public abstract void run(int a);
 
