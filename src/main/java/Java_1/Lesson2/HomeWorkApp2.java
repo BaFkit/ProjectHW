@@ -1,4 +1,4 @@
-package Lesson2;
+package Java_1.Lesson2;
 
 public class HomeWorkApp2 {
 

@@ -1,4 +1,4 @@
-package Lesson5;
+package Java_1.Lesson5;
 
 public class Employee {  // Homework for Lesson 5
 

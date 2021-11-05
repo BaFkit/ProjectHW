@@ -1,4 +1,4 @@
-package Lesson6;
+package Java_1.Lesson6;
 
 public abstract class  Animal {
 

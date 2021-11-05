@@ -1,4 +1,4 @@
-package Lesson8;
+package Java_1.Lesson8;
 // Доработанный счетчик
 import javax.swing.*;
 import java.awt.*;
