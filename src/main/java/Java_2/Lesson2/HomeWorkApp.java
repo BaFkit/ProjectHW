@@ -24,6 +24,7 @@ public class HomeWorkApp {
             }
         System.out.println("Сумма всех чисел в массиве: " + sum);
     }
+
     public static void main(String[] args) {
         HomeWorkApp app = new HomeWorkApp();
         String[][] array = new String[][] {
