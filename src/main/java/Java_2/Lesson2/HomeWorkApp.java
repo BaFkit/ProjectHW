@@ -32,6 +32,7 @@ public class HomeWorkApp {
                 {"5", "4", "2", "7"},
                 {"8", "4", "6", "7"}
         };
+
         try {
             app.transformInt(array);
         } catch (MyArraySizeException | MyArrayDataException  e) {

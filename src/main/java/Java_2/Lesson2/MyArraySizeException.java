@@ -6,4 +6,5 @@ public class MyArraySizeException extends RuntimeException {
     public String toString() {
         return "Получен массив не верного размера";
     }
+
 }
