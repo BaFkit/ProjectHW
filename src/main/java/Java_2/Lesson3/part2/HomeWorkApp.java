@@ -9,15 +9,16 @@ public class HomeWorkApp {
         PhoneBook phoneBook = new PhoneBook();
 
         phoneBook.add(790005000, "Smirnov");
-        phoneBook.add(778964444, "Sidorow");
+        phoneBook.add(778964444, "Sidorov");
         phoneBook.add(759556655, "Sergeev");
-        phoneBook.add(733354443, "Sidorow");
-        phoneBook.add(799999999, "Kruglow");
+        phoneBook.add(733354443, "Sidorov");
+        phoneBook.add(799999999, "Kruglov");
 
-        phoneBook.getPhone("Sidorow");  //метод возвращзает ArrayList такой вывод для проверки.
-        phoneBook.getPhone("Kruglow");
+        phoneBook.getPhone("Sidorov");  //метод возвращзает ArrayList такой вывод для проверки.
+        phoneBook.getPhone("Kruglov");
         phoneBook.getPhone("Sergeev");
         phoneBook.getPhone("Smirnov");
+        phoneBook.getPhone("Ivanov");
 
 
     }

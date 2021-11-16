@@ -13,15 +13,16 @@ public class PhoneBook {
 
        public ArrayList<Integer> getPhone(String surname){
             ArrayList<Integer> phone = new ArrayList<>();
-            for (Integer a: phoneList.keySet()){
-
-                if(phoneList.get(a).equals(surname)){
-                    System.out.println(surname + " - №:" + a);
-                    phone.add(a);
-                }
-
-            }
+           if(phoneList.containsValue(surname)) {
+               for (Integer a : phoneList.keySet()) {
+                   if (phoneList.get(a).equals(surname)) {
+                       System.out.println(surname + " - №:" + a);
+                       phone.add(a);
+                   }
+               }
+           }else {
+                System.out.println(surname + " - отсутствует");
+    }
             return phone;
        }
-
 }
