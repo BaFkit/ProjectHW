@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class HWApp {
 
     public <T> void changePlace(T[] arr, int a, int b){
-        if(arr.length >= a && arr.length >= b){
+        if(a >= 0 && arr.length >= a && b >= 0 && arr.length >= b){
             T x = arr[a];
             arr[a] = arr[b];
             arr[b] = x;
