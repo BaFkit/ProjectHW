@@ -35,6 +35,7 @@ public class AppTest {
 
 
 
+
   public static Stream<Arguments> dataReturnArrayAfter4() {
     List<Arguments> out = new ArrayList<>();
     out.add(Arguments.arguments(new int[]{3, 4, 2, 1, 3}, new int[]{2, 1, 3}));
