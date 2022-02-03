@@ -22,9 +22,10 @@ public class Backpack {
     public void bestThings(ArrayList<Thing> things) {
         for (int i = 0; i < things.size(); i++) {
             if(sumW(things) <= maxWeight) {
-                if(sumP(things) > bestPrice) {
+                int sp = sumP(things);
+                if(sp > bestPrice) {
                     result.clear();
-                    bestPrice = sumP(things);
+                    bestPrice = sp;
                     result.addAll(things);
                 }
             }
