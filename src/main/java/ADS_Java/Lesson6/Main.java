@@ -24,7 +24,7 @@ public class Main {
         }
         System.out.println(t);
         System.out.println(f);
-        System.out.println("Процент  несбалансированных деревьев состовляет: " + (int) (f/(size/100)) + "%");
+        System.out.println("Процент  несбалансированных деревьев составляет: " + (int) (f/(size/100)) + "%");
     }
 }
 
