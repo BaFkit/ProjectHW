@@ -1,4 +1,4 @@
-package factory_method;
+package сreational.factory_method;
 
 public class GroceryStoreFactory implements StoreFactory {
     @Override

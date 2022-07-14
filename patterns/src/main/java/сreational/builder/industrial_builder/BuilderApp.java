@@ -1,4 +1,4 @@
-package builder.industrial_builder;
+package сreational.builder.industrial_builder;
 
 public class BuilderApp {
     public static void main(String[] args) {
