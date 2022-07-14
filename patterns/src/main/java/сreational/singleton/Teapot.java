@@ -1,4 +1,4 @@
-package singleton;
+package сreational.singleton;
 
 public class Teapot {
 

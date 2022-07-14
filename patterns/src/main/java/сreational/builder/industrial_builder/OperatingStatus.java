@@ -1,4 +1,4 @@
-package builder.industrial_builder;
+package сreational.builder.industrial_builder;
 
 public enum OperatingStatus {
     OPERATING,

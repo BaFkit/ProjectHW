@@ -1,4 +1,4 @@
-package builder.industrial_builder;
+package сreational.builder.industrial_builder;
 
 public class Director {
 
@@ -13,9 +13,9 @@ public class Director {
 
         builder.buildName();
         builder.buildTemperature();
-        //builder.buildPressure();
+        //сreational.builder.buildPressure();
         builder.buildVoltage();
-        //builder.buildSupplierName();
+        //сreational.builder.buildSupplierName();
         builder.buildOperatingStatus();
 
         IndustrialUnit industrialUnit = builder.getIndustrialUnit();

@@ -1,4 +1,4 @@
-package builder.easy_builder;
+package сreational.builder.easy_builder;
 
 public class EasyBuilderApp {
     public static void main(String[] args) {
